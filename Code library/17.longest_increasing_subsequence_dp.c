@@ -29,6 +29,7 @@ int main()
     printf("Enter the array size");
     scanf("%d",&n);
     int *arr=(int *)malloc(n*sizeof(int));
+    printf("Enter the array elements");
     for(i=0;i<n;i++)
     scanf("%d",&arr[i]);
     res=lis(arr,n);
